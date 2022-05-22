@@ -48,3 +48,5 @@ def jogar():
             rodada = rodada + 1
     print(f'O número secreto é: {numero_secreto}')
     print("Fim de jogo")
+if(__name__ == "__main__"): # essa função possibilita o arquivo adivinhacao ser executado individualmente
+    jogar()
